@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dvdstyler format="4" template="Basic\blueWS.dvdt" name="OpiVarve" capacity="-3" videoFormat="2" audioFormat="3" aspectRatio="1">
+  <colours colour0="#00356a" colour1="#aae3ff" colour2="#004080" colour5="#0000ec" colour8="#0080c0"/>
+  <!--************** VMGM **************-->
+  <vmgm>
+    <menus>
+      <video format="pal" aspect="4:3" widescreen="nopanscan"/>
+      <audio lang="EN"/>
+      <subpicture lang="EN"/>
+      <!--************** MENU 1 **************-->
+      <pgc>
+        <vob pause="inf">
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <defs id="defs">
+                <svg id="s_obj01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <image x="5%" y="5%" width="90%" height="90%" preserveAspectRatio="xmidymid slice" id="image" style="opacity:1;"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:none;filter:url(#shadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="main" style="fill:#000000;fill-opacity:0;stroke:#ffffff;stroke-opacity:1;">
+                    <rect x="5%" y="5%" width="90%" height="90%" rx="0" ry="0" id="rect" style="stroke-width:2;"/>
+                  </g>
+                </svg>
+                <svg id="s_obj02" viewBox="0 0 300 300">
+                  <defs id="defs4">
+                    <radialGradient cx="163" cy="11" r="7.5" gradientUnits="userSpaceOnUse" id="pinballshadows">
+                      <stop style="stop-color:#ffffff;stop-opacity:1;"/>
+                      <stop offset="0.2" style="stop-color:#ffffff;stop-opacity:0.8;"/>
+                      <stop offset="0.4" style="stop-color:#ffffff;stop-opacity:0;"/>
+                      <stop offset="1" style="stop-color:#000000;stop-opacity:0.4;"/>
+                    </radialGradient>
+                    <linearGradient x1="156" y1="22" x2="158" y2="24" gradientUnits="userSpaceOnUse" id="pinmetal">
+                      <stop style="stop-color:#b2b2b2;stop-opacity:1;"/>
+                      <stop offset="0.25" style="stop-color:#ffffff;stop-opacity:1;"/>
+                      <stop offset="0.5" style="stop-color:#000000;stop-opacity:1;"/>
+                      <stop offset="1" style="stop-color:#cccccc;stop-opacity:1;"/>
+                    </linearGradient>
+                    <linearGradient x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse" id="noteshadows">
+                      <stop style="stop-color:#ffffff;stop-opacity:0;"/>
+                      <stop offset="0.8" style="stop-color:#ffffff;stop-opacity:0.7;"/>
+                      <stop offset="1" style="stop-color:#ffffff;stop-opacity:0.3;"/>
+                    </linearGradient>
+                    <clipPath id="clip">
+                      <path d="m30,40 l240,0 c0,36.5,2,75,0,110 c-2,35,-6,68,-9,100 c-37,3,-73,7,-110,8 c-39,1,-80,0,-120,0 z"/>
+                    </clipPath>
+                  </defs>
+                  <path id="shdw" style="fill:#000000;fill-opacity:0.4;" d="M300,150 L150,300 L300,300 z"/>
+                  <path id="note" style="fill:#ffcc00;" d="m0,0 l300,0 c0,50,2,100,0,150 c-2,48,-7,92,-11,138 c-46,4,-90,9,-138,11 c-48,2,-100,0,-150,0 z"/>
+                  <path id="ntshdws" style="fill:url(#noteshadows) none;" d="m3,3 l294,0 c0,47,2,97,0,147 c-2,48,-7,90,-11,136 c-46,4,-90,9,-138,11 c-48,2,-97,0,-144,0 z"/>
+                  <g id="pin">
+                    <path id="shadow" style="fill:#000000;fill-opacity:0.4;" d="m175,24 c-3,-3,-8,-3,-10,0 c-1.2,1.2,-1.9,2.7,-2,4.3 l-12.6,0 l0,2 l13,0 c0.2,1.6,1,3,2,4.3 c3,3,8,3,11,0 c3,-3,3,-8,0,-10 z"/>
+                    <path id="metal" style="fill:url(#pinmetal) none;" d="m164,14.9 l-14.2,14.2 c-0.2,0.2,-0.3,0.5,-0.3,0.7 c0,0.6,0.4,1,1,1 c0.3,0,0.5,-0.1,0.7,-0.3 l14,-14 z"/>
+                    <circle cx="164" cy="13.5" r="7.5" id="ball1" style="fill:#ff0000;"/>
+                    <circle cx="164" cy="13.5" r="7.5" id="ball2" style="fill:url(#pinballshadows) none;"/>
+                  </g>
+                  <image x="25" y="35" width="250" height="230" preserveAspectRatio="xmidymid slice" id="image" style="clip-path:url(#clip);opacity:1;"/>
+                </svg>
+                <svg id="s_obj03">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <rect x="0" y="0" width="100%" height="100%" id="background" style="fill:#000000;fill-opacity:0;"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1;">
+                    <text x="50%" y="50%" id="text" xml:space="preserve" style="dominant-baseline:middle;font-family:Arial;font-size:28;font-style:normal;font-weight:normal;stroke-width:1;text-anchor:middle;text-decoration:none;">Õpi Värve<tbreak/>Learn Colors<tbreak/><tbreak/>- Martin Eesmaa</text>
+                  </g>
+                </svg>
+                <svg id="s_obj04">
+                  <image width="100%" height="100%" id="image" xlink:href="Flag_of_Estonia.svg" style="opacity:1;"/>
+                </svg>
+                <svg id="s_obj05">
+                  <image width="100%" height="100%" id="image" xlink:href="1235px-Flag_of_the_United_States_(Pantone).svg.png" style="opacity:1;"/>
+                </svg>
+                <svg id="s_button01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">Eesti</text>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+                <svg id="s_button02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#text" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <text x="50%" y="78%" id="text" xml:space="preserve" style="fill:#ffffff;fill-opacity:1;font-family:Arial;font-size:26;font-style:normal;font-weight:normal;text-anchor:middle;text-decoration:none;">English</text>
+                  <rect x="0" y="78%" width="100%" height="2" id="underline" style="fill:none;" transform="translate(0,2)"/>
+                </svg>
+              </defs>
+              <g id="objects">
+                <use x="248" y="16" width="218" height="210" id="obj02" xlink:href="#s_obj02"/>
+                <use x="-4" y="0" width="720" height="540" id="obj01" xlink:href="#s_obj01"/>
+                <use x="256" y="64" width="202" height="100" id="obj03" xlink:href="#s_obj03"/>
+                <use x="156" y="304" width="151" height="96" id="obj04" xlink:href="#s_obj04"/>
+                <use x="404" y="304" width="184" height="96" id="obj05" xlink:href="#s_obj05"/>
+              </g>
+              <g id="buttons">
+                <use x="156" y="404" width="154" height="27" id="button01" xlink:href="#s_button01"/>
+                <use x="420" y="400" width="154" height="31" id="button02" xlink:href="#s_button02"/>
+              </g>
+            </svg>
+            <object id="obj01" displayVideoFrame="false">
+              <filename>frame-v3.xml</filename>
+            </object>
+            <object id="obj02" displayVideoFrame="false">
+              <filename>sticky_note.xml</filename>
+            </object>
+            <object id="obj03" displayVideoFrame="false">
+              <filename>text-v2.xml</filename>
+            </object>
+            <object id="obj04" keepAspectRatio="true" displayVideoFrame="false">
+              <filename>image.xml</filename>
+            </object>
+            <object id="obj05" keepAspectRatio="true" displayVideoFrame="false">
+              <filename>image.xml</filename>
+            </object>
+            <button id="button01">
+              <action tsi="0" pgci="1"/>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+            <button id="button02">
+              <action tsi="0" pgci="1"/>
+              <filename>text-underlined-v3.xml</filename>
+              <parameter name="underlineFill" normal="none" highlighted="#ff0000" selected="#640000"/>
+            </button>
+          </menu>
+        </vob>
+      </pgc>
+      <!--************** MENU 2 **************-->
+      <pgc>
+        <vob pause="inf">
+          <menu videoFormat="PAL" aspectRatio="1" rememberLastButton="-1">
+            <svg width="720" height="540">
+              <rect width="720" height="540" id="backgroundColour" style="fill:#000000;"/>
+              <defs id="defs">
+                <svg id="s_obj01">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#0000ff;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj02">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#ff00ff;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj03">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#00ff00;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj04">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#ff0000;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj05">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#ffff00;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj06">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#000000;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj07">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#ff7f00;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj08">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#ffffff;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj09">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#5e2f2f;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj10">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#7f00ff;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj11">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#808080;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_obj12">
+                  <defs>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <use x="2" y="2" id="shadow" xlink:href="#rect" style="fill:#404040;fill-opacity:1;filter:url(#shadowFilter);visibility:hidden;"/>
+                  <g id="main" style="fill:#00ffff;fill-opacity:1;">
+                    <rect x="0%" y="0%" width="100%" height="100%" rx="0" ry="0" id="rect"/>
+                  </g>
+                </svg>
+                <svg id="s_button01">
+                  <defs>
+                    <clipPath id="cp">
+                      <ellipse cx="50%" cy="50%" rx="45%" ry="45%"/>
+                    </clipPath>
+                    <filter id="shadowFilter">
+                      <feGaussianBlur stdDeviation="3"/>
+                    </filter>
+                  </defs>
+                  <image x="5%" y="5%" width="90%" height="90%" preserveAspectRatio="xmidymid slice" id="image" style="clip-path:url(#cp);opacity:1;"/>
+                  <use x="2" y="2" id="shadow" xlink:href="#ellipse" style="fill:none;filter:url(#shadowFilter);stroke:#404040;stroke-opacity:1;visibility:hidden;"/>
+                  <g id="main" style="fill:none;stroke:none;">
+                    <ellipse cx="50%" cy="50%" rx="45%" ry="45%" id="ellipse" style="fill:none;stroke-width:5;"/>
+                  </g>
+                </svg>
+              </defs>
+              <g id="objects">
+                <use x="0" y="0" width="180" height="180" id="obj01" xlink:href="#s_obj01"/>
+                <use x="180" y="0" width="180" height="180" id="obj02" xlink:href="#s_obj02"/>
+                <use x="360" y="0" width="180" height="180" id="obj03" xlink:href="#s_obj03"/>
+                <use x="540" y="0" width="180" height="180" id="obj04" xlink:href="#s_obj04"/>
+                <use x="0" y="180" width="180" height="180" id="obj05" xlink:href="#s_obj05"/>
+                <use x="180" y="180" width="180" height="180" id="obj06" xlink:href="#s_obj06"/>
+                <use x="360" y="180" width="180" height="180" id="obj07" xlink:href="#s_obj07"/>
+                <use x="540" y="180" width="180" height="180" id="obj08" xlink:href="#s_obj08"/>
+                <use x="0" y="360" width="180" height="180" id="obj09" xlink:href="#s_obj09"/>
+                <use x="180" y="360" width="180" height="180" id="obj10" xlink:href="#s_obj10"/>
+                <use x="360" y="360" width="180" height="180" id="obj11" xlink:href="#s_obj11"/>
+                <use x="540" y="360" width="180" height="180" id="obj12" xlink:href="#s_obj12"/>
+              </g>
+              <g id="buttons">
+                <use x="4" y="4" width="172" height="172" id="button01" xlink:href="#s_button01"/>
+              </g>
+            </svg>
+            <object id="obj01" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj02" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj03" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj04" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj05" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj06" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj07" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj08" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj09" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj10" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj11" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <object id="obj12" displayVideoFrame="false">
+              <filename>rectangle-v2.xml</filename>
+            </object>
+            <button id="button01" displayVideoFrame="false">
+              <action tsi="0" pgci="1"/>
+              <filename>ellipse-v2.xml</filename>
+              <parameter name="stroke" normal="none" highlighted="#ff0000" selected="#ffffff"/>
+              <parameter name="fill" normal="none" highlighted="none" selected="none"/>
+            </button>
+          </menu>
+        </vob>
+      </pgc>
+    </menus>
+  </vmgm>
+</dvdstyler>
